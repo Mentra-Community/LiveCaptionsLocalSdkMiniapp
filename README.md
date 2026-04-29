@@ -1,4 +1,4 @@
-# Live Captions Miniapp
+# Live Captions Local SDK Miniapp
 
 Local MentraOS miniapp version of the original `LiveCaptionsOnSmartGlasses` app.
 

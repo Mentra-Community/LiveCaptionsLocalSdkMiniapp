@@ -1,5 +1,5 @@
 {
-  "name": "live-captions-miniapp",
+  "name": "live-captions-local-sdk-miniapp",
   "private": true,
   "description": "Local MentraOS miniapp for real-time captions on smart glasses",
   "scripts": {
