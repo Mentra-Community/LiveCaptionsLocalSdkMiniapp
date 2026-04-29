@@ -6,10 +6,9 @@ This app runs as a JavaScript bundle inside the MentraOS mobile app WebView. It 
 
 ## Development
 
-This app currently depends on the local MentraOS miniapp SDK from a sibling checkout:
-
-- `../MentraOS-philippe-local-captions/sdk/miniapp`
-- `../MentraOS-philippe-local-captions/sdk/miniapp-cli`
+This app currently depends on the local MentraOS miniapp SDK. Use a MentraOS checkout on
+the `mentra-miniapp-sdk` branch so the `@mentra/miniapp` and
+`@mentra/miniapp-cli` file dependencies resolve locally.
 
 ```bash
 bun install
