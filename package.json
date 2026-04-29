@@ -1,0 +1,22 @@
+{
+  "name": "live-captions-miniapp",
+  "private": true,
+  "description": "Local MentraOS miniapp for real-time captions on smart glasses",
+  "scripts": {
+    "dev": "mentra-miniapp dev",
+    "build": "bun run build.ts",
+    "release": "mentra-miniapp release",
+    "pack": "mentra-miniapp pack"
+  },
+  "dependencies": {
+    "@mentra/miniapp": "file:../MentraOS-philippe-local-captions/sdk/miniapp",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@mentra/miniapp-cli": "file:../MentraOS-philippe-local-captions/sdk/miniapp-cli",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules
+dist
+.mentra
+bun.lockb
+*.zip
+.DS_Store

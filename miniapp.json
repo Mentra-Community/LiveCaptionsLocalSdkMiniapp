@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/@mentra/miniapp-cli/schema/miniapp.schema.json",
+  "packageName": "fr.fdesousa.captions",
+  "version": "1.0.0",
+  "name": "Live Captions",
+  "description": "Shows real-time speech transcripts on MentraOS smart glasses.",
+  "icon": "icon.png",
+  "port": 3000,
+  "permissions": [
+    {
+      "type": "MICROPHONE",
+      "description": "Listen for speech and turn it into captions."
+    }
+  ],
+  "hardwareRequirements": [
+    {
+      "type": "DISPLAY",
+      "level": "REQUIRED"
+    },
+    {
+      "type": "MICROPHONE",
+      "level": "REQUIRED"
+    }
+  ]
+}
