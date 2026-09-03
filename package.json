@@ -1,6 +1,7 @@
 {
   "name": "live-captions-local-sdk-miniapp",
   "private": true,
+  "license": "Apache-2.0",
   "description": "Local MentraOS miniapp for real-time captions on smart glasses",
   "scripts": {
     "dev": "mentra-miniapp dev",
